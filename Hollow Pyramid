@@ -1,0 +1,25 @@
+row = int(input()) #4 5 
+ranges = (row * 2) - 1
+print("*")
+
+# Top part
+for i in range(1, ranges-2, 2):
+    top = "*" + (i * " ") + "*"
+    print(top)
+
+# Bottom part
+for j in range(ranges-2, 0, -2):
+    bottom = "*" + ((j) * " ") + "*"
+    print(bottom)
+
+print("*")
+
+
+Output
+*
+* *
+*   *
+*     *
+*   *
+* *
+*
